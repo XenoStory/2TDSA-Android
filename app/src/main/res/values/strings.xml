@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="relative_layout">relative_layout</string>
+    <string name="programador_nome">Gustavo A. Lei</string>
+    <string name="programador_email">gustavo.lei@fiap.com.br</string>
+    <string name="sair">Sair</string>
+    <string name="absolute_layout">Absolute layout</string>
+    <string name="frame_layout">Frame layout</string>
+    <string name="digite_seu_email">Digite seu e-mail</string>
+    <string name="login">Login</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="botao">Botão</string>
+</resources>
