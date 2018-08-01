@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExemploSharedPreferences</string>
+    <string name="digite_seu_usuario">Digite seu usuário</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="manter_conectado">Manter-se conectado?</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="login_invalido">Login inválido</string>
+    <string name="salvar_em_arquivo">Salvar em arquivo</string>
+    <string name="ler_arquivo">Ler arquivo</string>
+    <string name="impossivel_salvar">Impossível salvar o arquivo</string>
+    <string name="impossivel_ler">Não foi possível ler o arquivo</string>
+</resources>
