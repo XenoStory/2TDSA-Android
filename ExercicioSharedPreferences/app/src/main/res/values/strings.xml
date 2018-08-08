@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExercicioSharedPreferences</string>
+    <string name="v_bucks_splash">Você sabia? É possível comprar V-Bucks pel app também!</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="tempo_exibicao">Tempo de Exibição</string>
+    <string name="salvar">Salvar</string>
+    <string name="exibir_splash">Exibir splash?</string>
+    <string name="config_salva">Configuração salva com sucesso!</string>
+</resources>
