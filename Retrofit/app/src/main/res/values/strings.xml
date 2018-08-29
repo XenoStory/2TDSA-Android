@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="ocorreu_erro_contatos">Ocorreu um erro ao buscar contatos.</string>
+</resources>

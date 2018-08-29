@@ -1,0 +1,60 @@
+package com.lei.retrofit;
+
+import android.content.Context;
+import android.text.Layout;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
+
+import java.util.List;
+
+public class ContatosAdapter extends BaseAdapter
+{
+    Context context;
+    List<Contato> contatos;
+
+    public ContatosAdapter(Context context, List<Contato> contatos)
+    {
+        this.context = context;
+        this.contatos = contatos;
+    }
+
+    @Override
+    public int getCount()
+    {
+        return this.contatos.size();
+    }
+
+    @Override
+    public Object getItem(int i)
+    {
+        return (Object)this.contatos.get(i);
+    }
+
+    @Override
+    public long getItemId(int i)
+    {
+        return i;
+    }
+
+    @Override
+    public View getView(int i, View view, ViewGroup viewGroup)
+    {
+        LayoutInflater layoutInflater = LayoutInflater.from(this.context);
+
+        Contato c = this.contatos.get(i);
+
+        View v = layoutInflater.inflate(R.layout.listview_contatos, null);
+        TextView txtNome = v.findViewById(R.id.txtNome);
+        TextView txtTelefone = v.findViewById(R.id.txtTelefone);
+
+        txtNome.setText(c.getNome());
+        txtTelefone.setText(c.getTelefone());
+
+        return v;
+    }
+}
