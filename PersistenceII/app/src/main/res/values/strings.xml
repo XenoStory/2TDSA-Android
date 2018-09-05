@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PersisenceII</string>
+    <string name="nome_cliente">Nome do cliente</string>
+    <string name="salvar">Salvar</string>
+    <string name="inserido_sucesso">Cliente inserido com sucesso</string>
+    <string name="log_dos_inseridos">Log dos inseridos</string>
+</resources>
