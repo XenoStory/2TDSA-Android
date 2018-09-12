@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="download">Download</string>
+    <string name="aguarde_download">Aguarde o download...</string>
+    <string name="baixando_img">Baixando a imagem</string>
+    <string name="falha_imagem">Falha ao baixar a imagem</string>
+    <string name="falha_baixar_img">Falha ao baixar imagem</string>
+</resources>
