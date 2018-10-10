@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="home">Home</string>
+    <string name="sobre">Sobre</string>
+    <string name="abrir">Abrir</string>
+    <string name="fechar">Fechar</string>
+</resources>
